@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Notes
 
 A simple and efficient note-taking app built with Flutter, designed for lightweight performance and local storage.
@@ -131,3 +132,6 @@ adb -s 1b2943dc pull /path/on/device /path/on/pc
 
 ## License
 [Add your chosen license here]
+=======
+# My-Notes
+>>>>>>> 6cb6b3b5ddceab8bfde81141ac9bd275fe1393b3
