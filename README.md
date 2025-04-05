@@ -135,3 +135,4 @@ adb -s 1b2943dc pull /path/on/device /path/on/pc
 =======
 # My-Notes
 >>>>>>> 6cb6b3b5ddceab8bfde81141ac9bd275fe1393b3
+# Testing credentials
