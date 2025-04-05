@@ -1,7 +1,103 @@
-<<<<<<< HEAD
 # My Notes
 
-A simple and efficient note-taking app built with Flutter, designed for lightweight performance and local storage.
+A simple and efficient note-taking app built with Flutter.
+
+## Features
+
+- 📝 Create, edit, and delete notes
+- 🔍 Search notes by title or content
+- 📋 Copy notes to clipboard
+- 📤 Share notes with other apps
+- 🌓 Dark/Light theme support
+- 🔄 Pull to refresh
+- 💾 Local storage using SQLite
+- 🎨 Material Design 3
+
+## Screenshots
+
+[Add screenshots here]
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK (version 3.7.2 or higher)
+- Dart SDK
+- Android Studio / VS Code
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/tellzee/My-Notes.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd My-Notes
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
+
+## Usage
+
+- Tap the + button to create a new note
+- Tap a note to edit it
+- Swipe left on a note to delete it
+- Use the search icon to find notes
+- Tap the theme icon to switch between dark and light modes
+- Use the share button to share notes
+- Use the copy button to copy note content
+
+## Project Structure
+
+```
+lib/
+├── main.dart              # App entry point
+├── models/
+│   └── note.dart         # Note data model
+├── screens/
+│   ├── home_screen.dart  # Main screen with note list
+│   └── note_edit_screen.dart  # Note creation/editing screen
+└── services/
+    └── database_service.dart  # Database operations
+```
+
+## Dependencies
+
+- `shared_preferences`: For theme preference storage
+- `sqflite`: For local database
+- `path`: For file path operations
+- `intl`: For date formatting
+- `flutter_slidable`: For swipe actions
+- `path_provider`: For file system access
+- `share_plus`: For sharing notes
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Flutter team for the amazing framework
+- All contributors and users of this app
 
 ## Development Environment
 
@@ -132,7 +228,161 @@ adb -s 1b2943dc pull /path/on/device /path/on/pc
 
 ## License
 [Add your chosen license here]
-=======
-# My-Notes
->>>>>>> 6cb6b3b5ddceab8bfde81141ac9bd275fe1393b3
+
 # Testing credentials
+
+## Development Roadmap
+
+### Phase 1: Core Enhancements (Next 3 Months)
+- [ ] **Note Organization**
+  - Add categories/tags system
+  - Implement note sorting options
+  - Add favorites/starred notes
+  - Create note folders/collections
+
+- [ ] **Rich Text Support**
+  - Basic text formatting (bold, italic, underline)
+  - Text alignment options
+  - Bullet points and numbered lists
+  - Text color and highlight options
+
+- [ ] **Search Improvements**
+  - Advanced search filters
+  - Search within specific categories
+  - Search history
+  - Search suggestions
+
+### Phase 2: User Experience (3-6 Months)
+- [ ] **UI/UX Enhancements**
+  - Custom themes and color schemes
+  - Grid/List view toggle
+  - Note preview cards
+  - Gesture controls
+  - Animations and transitions
+
+- [ ] **Data Management**
+  - Note export/import (JSON, PDF)
+  - Automatic backups
+  - Note version history
+  - Recycle bin for deleted notes
+
+- [ ] **Accessibility**
+  - Screen reader support
+  - High contrast mode
+  - Font size adjustment
+  - Keyboard shortcuts
+
+### Phase 3: Advanced Features (6-12 Months)
+- [ ] **Cloud Integration**
+  - Google Drive backup
+  - Dropbox integration
+  - Cross-device sync
+  - Offline mode
+
+- [ ] **Collaboration**
+  - Share notes with other users
+  - Real-time collaboration
+  - Comments and discussions
+  - Permission management
+
+- [ ] **Smart Features**
+  - AI-powered note organization
+  - Smart tags and categories
+  - Note linking
+  - Templates system
+
+### Phase 4: Platform Expansion (12+ Months)
+- [ ] **Multi-platform Support**
+  - Web version
+  - Desktop applications
+  - iOS optimization
+  - Wear OS support
+
+- [ ] **Integration**
+  - Calendar integration
+  - Task management
+  - Email integration
+  - API for third-party apps
+
+### Technical Improvements
+- [ ] **Performance**
+  - Database optimization
+  - Lazy loading
+  - Caching system
+  - Memory management
+
+- [ ] **Security**
+  - Note encryption
+  - Biometric authentication
+  - Secure sharing
+  - Privacy controls
+
+- [ ] **Testing & Quality**
+  - Unit tests
+  - Integration tests
+  - UI tests
+  - Performance testing
+
+### Maintenance & Support
+- [ ] **Documentation**
+  - API documentation
+  - User guides
+  - Developer documentation
+  - Troubleshooting guides
+
+- [ ] **Community**
+  - Feature requests system
+  - Bug reporting
+  - User feedback
+  - Community contributions
+
+## How to Contribute
+
+We welcome contributions to any of these roadmap items! Here's how you can help:
+
+1. **Feature Development**
+   - Pick an item from the roadmap
+   - Create a new branch
+   - Implement the feature
+   - Submit a pull request
+
+2. **Bug Fixes**
+   - Report bugs in the issues section
+   - Fix existing bugs
+   - Submit pull requests
+
+3. **Documentation**
+   - Improve existing documentation
+   - Add new guides
+   - Translate documentation
+
+4. **Testing**
+   - Test new features
+   - Report issues
+   - Suggest improvements
+
+## Getting Started with Development
+
+1. **Setup Development Environment**
+```bash
+# Clone the repository
+git clone https://github.com/tellzee/My-Notes.git
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+2. **Follow Development Guidelines**
+   - Follow Flutter best practices
+   - Write clean, documented code
+   - Add tests for new features
+   - Update documentation
+
+3. **Submit Changes**
+   - Create a new branch
+   - Make your changes
+   - Submit a pull request
+   - Address review comments
