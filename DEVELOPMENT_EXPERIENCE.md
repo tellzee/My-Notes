@@ -59,10 +59,6 @@ This document captures the development journey of the My Notes app, highlighting
 - Works best with immediate feedback
 - Prefers online-accessible tools
 - Uses Google services for organization
-- Limited PC access (specific hours)
-- No admin rights on development PC
-- Relies on web-based tools and services
-- Needs solutions that work within these constraints
 
 ### Optimal Development Approach
 1. **Setup Phase**
@@ -70,26 +66,18 @@ This document captures the development journey of the My Notes app, highlighting
    - Visual confirmation of each step
    - Immediate verification of success
    - Backup procedures in place
-   - Solutions that don't require admin rights
-   - Web-based tools and services
-   - Cloud-based development environment options
 
 2. **Development Phase**
    - Small, manageable tasks
    - Quick feedback loops
    - Visual examples when possible
    - Error handling with clear solutions
-   - Tools that work without admin privileges
-   - Online-accessible development resources
-   - Cloud-based storage and backup
 
 3. **Documentation**
    - Concise, practical instructions
    - Visual aids where helpful
    - Step-by-step procedures
    - Clear error resolution guides
-   - Accessible from any device
-   - Cloud-based documentation
 
 ## Future Development Prompt
 
@@ -102,9 +90,6 @@ I am developing a new Flutter application. Here are my characteristics and prefe
    - Benefit from visual examples
    - Work best with quick feedback
    - Use Google services for organization
-   - Limited PC access (specific hours)
-   - No admin rights on development PC
-   - Need solutions that work within these constraints
 
 2. Technical Setup:
    - Using Flutter for development
@@ -112,15 +97,11 @@ I am developing a new Flutter application. Here are my characteristics and prefe
    - Require secure credential management
    - Prefer online-accessible tools
    - Use Google Drive for backups
-   - Require tools that work without admin rights
-   - Need cloud-based development options
-   - Limited local storage access
 
 3. Project Requirements:
    - [Describe your new project requirements here]
    - [Add any specific features needed]
    - [Mention any particular challenges]
-   - [Note any PC access limitations]
 
 Please provide:
 1. Clear, sequential setup instructions
@@ -128,8 +109,8 @@ Please provide:
 3. Immediate verification methods
 4. Backup procedures
 5. Error handling with specific solutions
-6. Solutions that work without admin rights
-7. Cloud-based alternatives where possible
+
+Note: For specific working conditions and constraints, please refer to DEVELOPER_CONSTRAINTS.md
 ```
 
 ## Lessons Learned
